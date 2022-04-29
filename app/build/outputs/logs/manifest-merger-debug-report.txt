@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [:posenet] /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/96e8645982fff0292aff99731fc15d63/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/46291976eb82a36108941c373d64af18/transformed/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/leebumjun/.gradle/caches/transforms-3/f63f6646e375d5716ed1107a232d39ec/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/446ede0f00e5c53d42917698cfa41e9e/transformed/tensorflow-lite-2.2.0/AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/b34f012c2199039bddaf8ebcc3cb2d3a/transformed/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3cd3001d203ae9c92248f77212874c13/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3eb39b92abff0053d0d19cf84c29dade/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/93e0112ec2881f3a886dea583373f462/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/e782766a859f9a6c51c4ca29cb0ec4a9/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/f89b4bb5cf35387887432a2b9c5e2650/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/2194e3214f8a40c4fdcaeacb16af98ea/transformed/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/cccc49748c441d8fe0ef8ebdeba3ae2e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/7b75627b095bc1bf9b1f1aaecbb56263/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/1360d9298c1c205a73ad4aa9d5bed79f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/d719ba5ea543b81fe87e90724ada261c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/ba1b6781556dd08b741ea9489831f017/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3a9912afe40484030b58ed5fac937f90/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/leebumjun/.gradle/caches/transforms-3/5682dd3656e30c834a37597efdb65b3b/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/a219f26dc04585a0c849b0cd8323aea3/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/e60b6d5a0b979262b29b2e0b22689d87/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/5ffd70c0e9160c38f91ac58e49bfc107/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/c441fca9edb8a274b064c88ea5664798/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/d6641ba2ef702e6eafb30004e2e7ffc4/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:5:3-63
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:5:20-60
+uses-feature#android.hardware.camera
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:7:3-58
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:7:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:8:3-68
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:8:17-65
+uses-sdk
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+MERGED from [:posenet] /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:posenet] /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/96e8645982fff0292aff99731fc15d63/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/96e8645982fff0292aff99731fc15d63/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/46291976eb82a36108941c373d64af18/transformed/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/46291976eb82a36108941c373d64af18/transformed/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/leebumjun/.gradle/caches/transforms-3/f63f6646e375d5716ed1107a232d39ec/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/leebumjun/.gradle/caches/transforms-3/f63f6646e375d5716ed1107a232d39ec/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/446ede0f00e5c53d42917698cfa41e9e/transformed/tensorflow-lite-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/446ede0f00e5c53d42917698cfa41e9e/transformed/tensorflow-lite-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/b34f012c2199039bddaf8ebcc3cb2d3a/transformed/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/b34f012c2199039bddaf8ebcc3cb2d3a/transformed/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3cd3001d203ae9c92248f77212874c13/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3cd3001d203ae9c92248f77212874c13/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3eb39b92abff0053d0d19cf84c29dade/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3eb39b92abff0053d0d19cf84c29dade/transformed/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/93e0112ec2881f3a886dea583373f462/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/93e0112ec2881f3a886dea583373f462/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/e782766a859f9a6c51c4ca29cb0ec4a9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/e782766a859f9a6c51c4ca29cb0ec4a9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/f89b4bb5cf35387887432a2b9c5e2650/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/f89b4bb5cf35387887432a2b9c5e2650/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/2194e3214f8a40c4fdcaeacb16af98ea/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/2194e3214f8a40c4fdcaeacb16af98ea/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/cccc49748c441d8fe0ef8ebdeba3ae2e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/cccc49748c441d8fe0ef8ebdeba3ae2e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/7b75627b095bc1bf9b1f1aaecbb56263/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/7b75627b095bc1bf9b1f1aaecbb56263/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/1360d9298c1c205a73ad4aa9d5bed79f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/1360d9298c1c205a73ad4aa9d5bed79f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/d719ba5ea543b81fe87e90724ada261c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/d719ba5ea543b81fe87e90724ada261c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/ba1b6781556dd08b741ea9489831f017/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/ba1b6781556dd08b741ea9489831f017/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3a9912afe40484030b58ed5fac937f90/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/leebumjun/.gradle/caches/transforms-3/3a9912afe40484030b58ed5fac937f90/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/leebumjun/.gradle/caches/transforms-3/5682dd3656e30c834a37597efdb65b3b/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/leebumjun/.gradle/caches/transforms-3/5682dd3656e30c834a37597efdb65b3b/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/a219f26dc04585a0c849b0cd8323aea3/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/a219f26dc04585a0c849b0cd8323aea3/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/e60b6d5a0b979262b29b2e0b22689d87/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/leebumjun/.gradle/caches/transforms-3/e60b6d5a0b979262b29b2e0b22689d87/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/5ffd70c0e9160c38f91ac58e49bfc107/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/5ffd70c0e9160c38f91ac58e49bfc107/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/c441fca9edb8a274b064c88ea5664798/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/c441fca9edb8a274b064c88ea5664798/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/d6641ba2ef702e6eafb30004e2e7ffc4/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/leebumjun/.gradle/caches/transforms-3/d6641ba2ef702e6eafb30004e2e7ffc4/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+	android:targetSdkVersion
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+		MERGED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+		MERGED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:12:3-33:17
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/leebumjun/.gradle/caches/transforms-3/f63f6646e375d5716ed1107a232d39ec/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/leebumjun/.gradle/caches/transforms-3/f63f6646e375d5716ed1107a232d39ec/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/446ede0f00e5c53d42917698cfa41e9e/transformed/tensorflow-lite-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/446ede0f00e5c53d42917698cfa41e9e/transformed/tensorflow-lite-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/b34f012c2199039bddaf8ebcc3cb2d3a/transformed/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/leebumjun/.gradle/caches/transforms-3/b34f012c2199039bddaf8ebcc3cb2d3a/transformed/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/ba1b6781556dd08b741ea9489831f017/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/ba1b6781556dd08b741ea9489831f017/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:17:7-33
+	android:label
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:15:7-46
+	android:roundIcon
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:16:7-52
+	android:icon
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:14:7-41
+	android:allowBackup
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:13:7-33
+	android:theme
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:18:7-46
+activity#org.tensorflow.lite.examples.posenet.TestActivity
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:20:5-24:16
+	android:label
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:22:9-48
+	android:exported
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:23:9-32
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:21:9-37
+activity#org.tensorflow.lite.examples.posenet.CameraActivity
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:26:5-31:16
+	android:exported
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:26:46-69
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:26:15-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:27:7-30:23
+action#android.intent.action.MAIN
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:28:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:29:9-68
+	android:name
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:29:19-66

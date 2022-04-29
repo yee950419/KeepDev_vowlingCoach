@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:2:3-53
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+	android:targetSdkVersion
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml
+		ADDED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml:4:3-15
+		INJECTED from /Users/leebumjun/StudioProjects/keepdev-posenet/posenet/src/main/AndroidManifest.xml
