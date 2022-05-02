@@ -554,6 +554,7 @@ class PosenetActivity :
 //      (70.0f * heightRatio + bottom),
 //      paint
 //    )
+    //ddd
 
     // Draw!
     surfaceHolder!!.unlockCanvasAndPost(canvas)
