@@ -1,142 +1,142 @@
 [
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-mdpi\\ic_action_info.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image.jpg.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable\\image.jpg"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icn_chevron_up.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-xxhdpi\\icn_chevron_up.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tfl2_logo_dark.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-xxhdpi/tfl2_logo_dark.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/layout_tfe_pn_activity_camera.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/layout/tfe_pn_activity_camera.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_action_info.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxhdpi/ic_action_info.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/layout_tfe_pn_activity_test.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/layout/tfe_pn_activity_test.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_action_info.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable_image.jpg.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable/image.jpg"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\layout_tfe_pn_activity_test.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\layout\\tfe_pn_activity_test.xml"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\layout_tfe_pn_activity_camera.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\layout\\tfe_pn_activity_camera.xml"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tfl2_logo.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-xxhdpi/tfl2_logo.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-hdpi\\ic_action_info.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_action_info.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-hdpi/ic_action_info.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icn_chevron_up.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-xxhdpi/icn_chevron_up.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tfl2_logo_dark.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-xxhdpi\\tfl2_logo_dark.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable_action.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable/action.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_action_info.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xhdpi/ic_action_info.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_action_info.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_action_info.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-mdpi/ic_action_info.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\layout_tfe_pn_activity_posenet.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\layout\\tfe_pn_activity_posenet.xml"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/layout_tfe_pn_activity_posenet.xml.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/layout/tfe_pn_activity_posenet.xml"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icn_chevron_down.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-xxhdpi\\icn_chevron_down.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tfl2_logo.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable-xxhdpi\\tfl2_logo.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icn_chevron_down.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/drawable-xxhdpi/icn_chevron_down.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_action.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\drawable\\action.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     }
 ]

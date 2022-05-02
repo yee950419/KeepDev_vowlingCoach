@@ -5,65 +5,65 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+7-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:10:3-15
 8        android:minSdkVersion="21"
-8-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+8-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:10:3-15
 9        android:targetSdkVersion="23" />
-9-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:10:3-15
+9-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:10:3-15
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:5:3-63
-11-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:5:20-60
+11-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:5:3-63
+11-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:5:20-60
 12
 13    <uses-feature android:name="android.hardware.camera" />
-13-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:7:3-58
-13-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:7:17-55
+13-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:7:3-58
+13-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:7:17-55
 14    <uses-feature android:name="android.hardware.camera.autofocus" />
-14-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:8:3-68
-14-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:8:17-65
+14-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:8:3-68
+14-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:8:17-65
 15
 16    <application
-16-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:12:3-33:17
+16-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:12:3-33:17
 17        android:allowBackup="true"
-17-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:13:7-33
+17-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:13:7-33
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.1.0] C:\Users\yee95\.gradle\caches\transforms-3\766088ca3c93a38d4ac39cf5fd7f3d31\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:14:7-41
+20-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:14:7-41
 21        android:label="@string/tfe_pn_app_name"
-21-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:15:7-46
+21-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:15:7-46
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:16:7-52
+22-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:16:7-52
 23        android:supportsRtl="true"
-23-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:17:7-33
+23-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:17:7-33
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme.Posenet" >
-25-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:18:7-46
+25-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:18:7-46
 26        <activity
-26-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:20:5-24:16
+26-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:20:5-24:16
 27            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
-27-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:21:9-37
+27-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:21:9-37
 28            android:exported="true"
-28-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:23:9-32
+28-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:23:9-32
 29            android:label="@string/tfe_pn_app_name" >
-29-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:22:9-48
+29-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:22:9-48
 30        </activity>
 31        <activity
-31-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:26:5-31:16
+31-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:26:5-31:16
 32            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
-32-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:26:15-45
+32-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:26:15-45
 33            android:exported="true" >
-33-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:26:46-69
+33-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:26:46-69
 34            <intent-filter>
-34-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:27:7-30:23
+34-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:27:7-30:23
 35                <action android:name="android.intent.action.MAIN" />
-35-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:28:9-60
-35-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:28:17-58
+35-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:28:9-60
+35-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:28:17-58
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:29:9-68
-37-->/Users/leebumjun/StudioProjects/keepdev-posenet/app/src/main/AndroidManifest.xml:29:19-66
+37-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:29:9-68
+37-->C:\Users\yee95\AndroidStudioProjects\keepdev-posenet\app\src\main\AndroidManifest.xml:29:19-66
 38            </intent-filter>
 39        </activity>
 40    </application>

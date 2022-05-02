@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/leebumjun/.gradle/caches/transforms-3/96e8645982fff0292aff99731fc15d63/transformed/appcompat-1.1.0/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\yee95\\.gradle\\caches\\transforms-3\\96e8645982fff0292aff99731fc15d63\\transformed\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

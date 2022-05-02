@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/leebumjun/StudioProjects/keepdev-posenet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "C:\\Users\\yee95\\AndroidStudioProjects\\keepdev-posenet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "C:\\Users\\yee95\\.gradle\\caches\\transforms-3\\766088ca3c93a38d4ac39cf5fd7f3d31\\transformed\\core-1.1.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/leebumjun/.gradle/caches/transforms-3/96e8645982fff0292aff99731fc15d63/transformed/appcompat-1.1.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "C:\\Users\\yee95\\.gradle\\caches\\transforms-3\\96e8645982fff0292aff99731fc15d63\\transformed\\appcompat-1.1.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
