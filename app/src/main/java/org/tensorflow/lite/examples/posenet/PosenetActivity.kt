@@ -510,12 +510,12 @@ class PosenetActivity :
       if (keyPoint.score > minConfidence) {
         val position = keyPoint.position
         val adjustedX: Float = position.x.toFloat() * widthRatio + left
-        val adjustedY: Float = position.y.toFloat() * heightRatio + top
-        canvas.drawCircle(adjustedX, adjustedY, circleRadius, paint)
-      }
+      val adjustedY: Float = position.y.toFloat() * heightRatio + top
+      canvas.drawCircle(adjustedX, adjustedY, circleRadius, paint)
     }
+  }
 
-    for (line in bodyJoints) {
+  for (line in bodyJoints) {
       if (
         (person.keyPoints[line.first.ordinal].score > minConfidence) and
         (person.keyPoints[line.second.ordinal].score > minConfidence)
@@ -531,9 +531,15 @@ class PosenetActivity :
     }
 
     canvas.drawText(
-      "무릎: x: %s y: %s".format(person.keyPoints[13].position.x, person.keyPoints[13].position.y),
+      "왼쪽 무릎: x: %s y: %s".format(person.keyPoints[13].position.x, person.keyPoints[13].position.y),
       (15.0f * widthRatio),
       (30.0f * heightRatio + bottom),
+      paint
+    )
+    canvas.drawText(
+      "오른쪽 무릎: x: %s y: %s".format(person.keyPoints[14].position.x, person.keyPoints[14].position.y),
+      (15.0f * widthRatio),
+      (50.0f * heightRatio + bottom),
       paint
     )
 //    canvas.drawText(
