@@ -27,6 +27,9 @@ import java.nio.channels.FileChannel
 import kotlin.math.exp
 import org.tensorflow.lite.Interpreter
 import org.tensorflow.lite.gpu.GpuDelegate
+import kotlin.math.PI
+import kotlin.math.acos
+import kotlin.math.hypot
 
 enum class BodyPart {
   NOSE,
@@ -34,17 +37,17 @@ enum class BodyPart {
   RIGHT_EYE,
   LEFT_EAR,
   RIGHT_EAR,
-  LEFT_SHOULDER,
+  LEFT_SHOULDER,  //5
   RIGHT_SHOULDER,
   LEFT_ELBOW,
   RIGHT_ELBOW,
   LEFT_WRIST,
-  RIGHT_WRIST,
+  RIGHT_WRIST,  //10
   LEFT_HIP,
   RIGHT_HIP,
   LEFT_KNEE,
   RIGHT_KNEE,
-  LEFT_ANKLE,
+  LEFT_ANKLE,   //15
   RIGHT_ANKLE
 }
 
@@ -62,6 +65,20 @@ class KeyPoint {
 class Person {
   var keyPoints = listOf<KeyPoint>()
   var score: Float = 0.0f
+
+  fun getAngle(a1 : Position, a2 : Position, a3 : Position): Double {
+    val p1: Double = hypot(((a1.x) - (a2.x)).toDouble(), ((a1.y) - (a2.y)).toDouble())
+    val p2: Double = hypot(((a2.x) - (a3.x)).toDouble(), ((a2.y) - (a3.y)).toDouble())
+    val p3: Double = hypot(((a3.x) - (a1.x)).toDouble(), ((a3.y) - (a1.y)).toDouble())
+    val radian: Double = acos((p1 * p1 + p2 * p2 - p3 * p3) / (2 * p1 * p2))
+    return radian / PI * 180
+  }
+}
+
+class Pose_Address{
+  val correctRightElbowAngle = 90
+  val correctRightKneeAngle = 160
+  val bestScore = 0
 }
 
 enum class Device {
@@ -77,6 +94,7 @@ class Posenet(
 ) : AutoCloseable {
   var lastInferenceTimeNanos: Long = -1
     private set
+
 
   /** An Interpreter for the TFLite model.   */
   private var interpreter: Interpreter? = null

@@ -55,12 +55,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import org.tensorflow.lite.examples.posenet.lib.*
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
-import kotlin.math.abs
-import org.tensorflow.lite.examples.posenet.lib.BodyPart
-import org.tensorflow.lite.examples.posenet.lib.Person
-import org.tensorflow.lite.examples.posenet.lib.Posenet
+import kotlin.math.*
 
 class PosenetActivity :
   Fragment(),
@@ -463,6 +461,27 @@ class PosenetActivity :
     return croppedBitmap
   }
 
+  /** 각도 구하기 */
+//    fun getAngle(a1 : Position, a2 : Position, a3 : Position): Double {
+//      val person = Person()
+//      val p1: Double = hypot(
+//        ((a1.x) - (a2.x)).toDouble(),
+//        ((a1.y) - (a2.y)).toDouble()
+//      )
+//      val p2: Double = hypot(
+//        ((a2.x) - (a3.x)).toDouble(),
+//        ((a2.y) - (a3.y)).toDouble()
+//      )
+//      val p3: Double = hypot(
+//        ((a3.x) - (a1.x)).toDouble(),
+//        ((a3.y) - (a1.y)).toDouble()
+//      )
+//
+//      val radian: Double = acos((p1 * p1 + p2 * p2 - p3 * p3) / (2 * p1 * p2))
+//      return radian / PI * 180
+//    }
+
+
   /** Set the paint color and size.    */
   private fun setPaint() {
     paint.color = Color.RED
@@ -529,19 +548,75 @@ class PosenetActivity :
         )
       }
     }
+///////////////////////////////////////////////////////////////////////////////
+
+    val leftAlbowAngle = person.getAngle(person.keyPoints[BodyPart.LEFT_SHOULDER.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_ELBOW.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_WRIST.ordinal].position)
+
+    val rightAlbowAngle = person.getAngle(person.keyPoints[BodyPart.RIGHT_SHOULDER.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_ELBOW.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_WRIST.ordinal].position)
+
+    val leftShoulderAngle = person.getAngle(person.keyPoints[BodyPart.LEFT_ELBOW.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_SHOULDER.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_HIP.ordinal].position)
+
+    val rightShoulderAngle = person.getAngle(person.keyPoints[BodyPart.RIGHT_ELBOW.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_SHOULDER.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_HIP.ordinal].position)
+
+    val leftHipAngle = person.getAngle(person.keyPoints[BodyPart.LEFT_SHOULDER.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_HIP.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_KNEE.ordinal].position)
+
+    val rightHipAngle = person.getAngle(person.keyPoints[BodyPart.RIGHT_SHOULDER.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_HIP.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_KNEE.ordinal].position)
+
+    val leftKneeAngle = person.getAngle(person.keyPoints[BodyPart.LEFT_HIP.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_KNEE.ordinal].position,
+      person.keyPoints[BodyPart.LEFT_ANKLE.ordinal].position)
+
+    val rightKneeAngle = person.getAngle(person.keyPoints[BodyPart.RIGHT_HIP.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_KNEE.ordinal].position,
+      person.keyPoints[BodyPart.RIGHT_ANKLE.ordinal].position)
+
+    val pose_address = Pose_Address();
+
+//    1. 자세별 클래스 정의 - 자세를 판별하기 위해 중요하게 생각해야 할 각도 선별
+//
+//    2. 시간에 따라 canvas.drawText로 보여주는 기준 자세의 점수를 전환
+//
+//    3. bestScore를 어떻게 기록할지..    0~40 까지는 무효, 40~100 까지는 점수
+//
+//    4. 시간이 끝날때마다 최고 점수를 화면에 띄워주고 다음 자세로 넘어감
+//
+//    5. 마지막 자세가 끝나면 카메라가 꺼지고 점수 확인 화면으로 전환
+
 
     canvas.drawText(
-      "왼쪽 무릎: x: %s y: %s".format(person.keyPoints[13].position.x, person.keyPoints[13].position.y),
+      "오른팔 각도 : %.0f".format(rightAlbowAngle),
       (15.0f * widthRatio),
       (30.0f * heightRatio + bottom),
       paint
     )
+
     canvas.drawText(
-      "오른쪽 무릎: x: %s y: %s".format(person.keyPoints[14].position.x, person.keyPoints[14].position.y),
+      "오른 무릎 각도 : %.0f".format(rightKneeAngle),
       (15.0f * widthRatio),
       (50.0f * heightRatio + bottom),
       paint
     )
+
+    canvas.drawText(
+      "어드레스 자세 점수 : %.0f".format(100-(pose_address.correctRightElbowAngle-rightAlbowAngle).absoluteValue
+              -(pose_address.correctRightKneeAngle-rightKneeAngle).absoluteValue),
+      (15.0f * widthRatio),
+      (70.0f * heightRatio + bottom),
+      paint
+    )
+
 //    canvas.drawText(
 //      "Score: %.2f".format(person.score),
 //      (15.0f * widthRatio),
