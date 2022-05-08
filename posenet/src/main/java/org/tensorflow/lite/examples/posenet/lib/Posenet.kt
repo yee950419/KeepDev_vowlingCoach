@@ -24,12 +24,9 @@ import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.MappedByteBuffer
 import java.nio.channels.FileChannel
-import kotlin.math.exp
 import org.tensorflow.lite.Interpreter
 import org.tensorflow.lite.gpu.GpuDelegate
-import kotlin.math.PI
-import kotlin.math.acos
-import kotlin.math.hypot
+import kotlin.math.*
 
 enum class BodyPart {
   NOSE,
@@ -64,6 +61,7 @@ class KeyPoint {
 
 class Person {
   var keyPoints = listOf<KeyPoint>()
+//  var score: Float = 0.0f
   var score: Float = 0.0f
 
   fun getAngle(a1 : Position, a2 : Position, a3 : Position): Double {
@@ -75,11 +73,43 @@ class Person {
   }
 }
 
-class Pose_Address{
-  val correctRightElbowAngle = 90
-  val correctRightKneeAngle = 160
-  val bestScore = 0
+class VowlingPose{
+  var correctRightElbowAngle: Double = 0.0
+  var correctRightShoulderAngle: Double = 0.0
+  var correctRightHipAngle: Double = 0.0
+  var correctRightKneeAngle: Double = 0.0
+  var correctLeftKneeAngle: Double = 0.0
+  var scoreArray = DoubleArray(100)
+
+  constructor(correctRightElbowAngle: Double, correctRightShoulderAngle: Double,
+              correctRightHipAngle: Double, correctRightKneeAngle: Double){
+    this.correctRightElbowAngle = correctRightElbowAngle
+    this.correctRightShoulderAngle = correctRightShoulderAngle
+    this.correctRightHipAngle = correctRightHipAngle
+    this.correctRightKneeAngle = correctRightKneeAngle
+    this.correctLeftKneeAngle = 0.0
+  }
+
+  constructor(correctRightElbowAngle: Double, correctRightShoulderAngle: Double,
+              correctRightHipAngle: Double, correctRightKneeAngle: Double, correctLeftKneeAngle: Double){
+    this.correctRightElbowAngle = correctRightElbowAngle
+    this.correctRightShoulderAngle = correctRightShoulderAngle
+    this.correctRightHipAngle = correctRightHipAngle
+    this.correctRightKneeAngle = correctRightKneeAngle
+    this.correctLeftKneeAngle = correctLeftKneeAngle
+  }
+
+  fun getScore(a1: Double, a2: Double, a3: Double, a4: Double): Double {
+    return 100 - ((correctRightElbowAngle - a1).absoluteValue + (correctRightShoulderAngle - a2).absoluteValue +
+            (correctRightHipAngle - a3).absoluteValue + (correctRightKneeAngle - a4))
+  }
+
+  fun getScore(a1: Double, a2: Double, a3: Double, a4: Double, a5: Double): Double {
+    return 100 - ((correctRightElbowAngle - a1).absoluteValue + (correctRightShoulderAngle - a2).absoluteValue +
+            (correctRightHipAngle - a3).absoluteValue + (correctRightKneeAngle - a4).absoluteValue + (correctLeftKneeAngle - a5).absoluteValue)
+  }
 }
+
 
 enum class Device {
   CPU,

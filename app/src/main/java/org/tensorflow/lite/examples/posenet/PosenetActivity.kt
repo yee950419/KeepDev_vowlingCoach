@@ -480,6 +480,9 @@ class PosenetActivity :
 //      val radian: Double = acos((p1 * p1 + p2 * p2 - p3 * p3) / (2 * p1 * p2))
 //      return radian / PI * 180
 //    }
+//  private fun getAverage(array: DoubleArray): Double{
+//    return array.sum()/array.size
+//  }
 
 
   /** Set the paint color and size.    */
@@ -550,6 +553,7 @@ class PosenetActivity :
     }
 ///////////////////////////////////////////////////////////////////////////////
 
+    /** 각 부위별 각도*/
     val leftAlbowAngle = person.getAngle(person.keyPoints[BodyPart.LEFT_SHOULDER.ordinal].position,
       person.keyPoints[BodyPart.LEFT_ELBOW.ordinal].position,
       person.keyPoints[BodyPart.LEFT_WRIST.ordinal].position)
@@ -582,7 +586,27 @@ class PosenetActivity :
       person.keyPoints[BodyPart.RIGHT_KNEE.ordinal].position,
       person.keyPoints[BodyPart.RIGHT_ANKLE.ordinal].position)
 
-    val pose_address = Pose_Address();
+//    val pose_address = Pose_Address()
+//    val pose_pushaway = Pose_PushAway()
+//    val pose_downswing = Pose_DownSwing()
+//    val pose_backswing = Pose_BackSwing()
+//    val pose_forwardswing = Pose_ForwardSwing()
+//    val pose_followthrough = Pose_FollowThrough()
+    /** 각 자세 인스턴스 생성*/
+    val pose_address = VowlingPose(90.0, 0.0, 160.0, 160.0);
+    val pose_pushaway = VowlingPose(105.0, 15.0, 150.0, 150.0, 150.0);
+    val pose_downswing = VowlingPose(180.0, 10.0, 170.0, 150.0, 150.0);
+    val pose_backswing = VowlingPose(180.0, 90.0, 110.0, 130.0, 130.0);
+    val pose_forwardswing = VowlingPose(180.0, 30.0, 175.0, 170.0, 80.0);
+    val pose_followthrough = VowlingPose(160.0, 160.0, 175.0, 180.0, 100.0);
+
+    /** 각 자세 점수*/
+    val addressScore = pose_address.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle)
+    val pushawayScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
+    val downswingScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
+    val backswingScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
+    val forwardswingScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
+    val followthroughScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
 
 //    1. 자세별 클래스 정의 - 자세를 판별하기 위해 중요하게 생각해야 할 각도 선별
 //
@@ -594,28 +618,90 @@ class PosenetActivity :
 //
 //    5. 마지막 자세가 끝나면 카메라가 꺼지고 점수 확인 화면으로 전환
 
+    /** 50점 이상의 어드레스 자세 점수만 출력 후 scoreArray에 저장*/
+//    if(addressScore>50){
+//      pose_address.scoreArray.plus(addressScore)
+//      canvas.drawText(
+//        "어드레스 점수 : %.0f".format(addressScore),
+//        (15.0f * widthRatio),
+//        (30.0f * heightRatio + bottom),
+//        paint
+//      )
+//    }
+
+
 
     canvas.drawText(
-      "오른팔 각도 : %.0f".format(rightAlbowAngle),
+      "addressScore : %.0f".format(addressScore),
       (15.0f * widthRatio),
-      (30.0f * heightRatio + bottom),
+      (00.0f * heightRatio + bottom),
       paint
     )
-
     canvas.drawText(
-      "오른 무릎 각도 : %.0f".format(rightKneeAngle),
+      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightElbowAngle, rightAlbowAngle),
       (15.0f * widthRatio),
-      (50.0f * heightRatio + bottom),
+      (20.0f * heightRatio + bottom),
       paint
     )
-
     canvas.drawText(
-      "어드레스 자세 점수 : %.0f".format(100-(pose_address.correctRightElbowAngle-rightAlbowAngle).absoluteValue
-              -(pose_address.correctRightKneeAngle-rightKneeAngle).absoluteValue),
+      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightShoulderAngle, rightShoulderAngle),
       (15.0f * widthRatio),
-      (70.0f * heightRatio + bottom),
+      (40.0f * heightRatio + bottom),
       paint
     )
+    canvas.drawText(
+      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightHipAngle, rightHipAngle),
+      (15.0f * widthRatio),
+      (60.0f * heightRatio + bottom),
+      paint
+    )
+    canvas.drawText(
+      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightKneeAngle, rightKneeAngle),
+      (15.0f * widthRatio),
+      (80.0f * heightRatio + bottom),
+      paint
+    )
+//    canvas.drawText(
+//      "어드레스 점수 : %.0f".format(addressScore),
+//      (15.0f * widthRatio),
+//      (30.0f * heightRatio + bottom),
+//      paint
+//    )
+//
+//    canvas.drawText(
+//      "푸시어웨이 점수 : %.0f".format(pushawayScore),
+//      (15.0f * widthRatio),
+//      (50.0f * heightRatio + bottom),
+//      paint
+//    )
+//
+//    canvas.drawText(
+//      "다운스윙 점수 : %.0f".format(downswingScore),
+//      (15.0f * widthRatio),
+//      (70.0f * heightRatio + bottom),
+//      paint
+//    )
+//
+//    canvas.drawText(
+//      "백스윙 점수 : %.0f".format(backswingScore)),
+//      (15.0f * widthRatio),
+//      (30.0f * heightRatio + bottom),
+//      paint
+//    )
+//
+//    canvas.drawText(
+//      "포워드스윙 점수 : %.0f".format(forwardswingScore),
+//      (15.0f * widthRatio),
+//      (50.0f * heightRatio + bottom),
+//      paint
+//    )
+//
+//    canvas.drawText(
+//      "팔로스루 점수 : %.0f".format(followthroughScore),
+//      (15.0f * widthRatio),
+//      (70.0f * heightRatio + bottom),
+//      paint
+//    )
 
 //    canvas.drawText(
 //      "Score: %.2f".format(person.score),
