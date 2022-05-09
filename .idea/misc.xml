@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/tfe_pn_activity_camera.xml" value="0.14969604863221886" />
+        <entry key="app/src/main/res/layout/tfe_pn_activity_posenet.xml" value="0.1" />
       </map>
     </option>
   </component>

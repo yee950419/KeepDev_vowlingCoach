@@ -37,6 +37,8 @@ class CameraActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.tfe_pn_activity_camera)
     getAppKeyHash()
+    initTextToSpeech()
+    ttsSpeak("안녕하세요오")
     window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
     savedInstanceState ?: supportFragmentManager.beginTransaction()
       .replace(R.id.container, PosenetActivity())
