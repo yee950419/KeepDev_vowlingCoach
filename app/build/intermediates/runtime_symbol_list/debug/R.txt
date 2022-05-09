@@ -123,6 +123,7 @@ int attr contentInsetRight 0x7f020061
 int attr contentInsetStart 0x7f020062
 int attr contentInsetStartWithNavigation 0x7f020063
 int attr controlBackground 0x7f020064
+int attr coordinatorLayoutStyle 0x7f02014f
 int attr customNavigationLayout 0x7f020065
 int attr defaultQueryHint 0x7f020066
 int attr dialogCornerRadius 0x7f020067
@@ -178,8 +179,12 @@ int attr indeterminateProgressStyle 0x7f020098
 int attr initialActivityCount 0x7f020099
 int attr isLightTheme 0x7f02009a
 int attr itemPadding 0x7f02009b
+int attr keylines 0x7f020150
 int attr lastBaselineToBottomHeight 0x7f02009c
 int attr layout 0x7f02009d
+int attr layout_anchor 0x7f020151
+int attr layout_anchorGravity 0x7f020152
+int attr layout_behavior 0x7f020153
 int attr layout_constrainedHeight 0x7f02009e
 int attr layout_constrainedWidth 0x7f02009f
 int attr layout_constraintBaseline_creator 0x7f0200a0
@@ -221,6 +226,7 @@ int attr layout_constraintWidth_default 0x7f0200c3
 int attr layout_constraintWidth_max 0x7f0200c4
 int attr layout_constraintWidth_min 0x7f0200c5
 int attr layout_constraintWidth_percent 0x7f0200c6
+int attr layout_dodgeInsetEdges 0x7f020154
 int attr layout_editor_absoluteX 0x7f0200c7
 int attr layout_editor_absoluteY 0x7f0200c8
 int attr layout_goneMarginBottom 0x7f0200c9
@@ -229,6 +235,8 @@ int attr layout_goneMarginLeft 0x7f0200cb
 int attr layout_goneMarginRight 0x7f0200cc
 int attr layout_goneMarginStart 0x7f0200cd
 int attr layout_goneMarginTop 0x7f0200ce
+int attr layout_insetEdge 0x7f020155
+int attr layout_keyline 0x7f020156
 int attr layout_optimizationLevel 0x7f0200cf
 int attr lineHeight 0x7f0200d0
 int attr listChoiceBackgroundIndicator 0x7f0200d1
@@ -293,6 +301,7 @@ int attr spinnerStyle 0x7f02010b
 int attr splitTrack 0x7f02010c
 int attr srcCompat 0x7f02010d
 int attr state_above_anchor 0x7f02010e
+int attr statusBarBackground 0x7f020157
 int attr subMenuArrow 0x7f02010f
 int attr submitBackground 0x7f020110
 int attr subtitle 0x7f020111
@@ -396,6 +405,10 @@ int color bright_foreground_inverse_material_dark 0x7f040020
 int color bright_foreground_inverse_material_light 0x7f040021
 int color bright_foreground_material_dark 0x7f040022
 int color bright_foreground_material_light 0x7f040023
+int color browser_actions_bg_grey 0x7f040058
+int color browser_actions_divider_color 0x7f040059
+int color browser_actions_text_color 0x7f04005a
+int color browser_actions_title_color 0x7f04005b
 int color button_material_dark 0x7f040024
 int color button_material_light 0x7f040025
 int color dim_foreground_disabled_material_dark 0x7f040026
@@ -526,6 +539,8 @@ int dimen abc_text_size_subhead_material 0x7f05004a
 int dimen abc_text_size_subtitle_material_toolbar 0x7f05004b
 int dimen abc_text_size_title_material 0x7f05004c
 int dimen abc_text_size_title_material_toolbar 0x7f05004d
+int dimen browser_actions_context_menu_max_width 0x7f050075
+int dimen browser_actions_context_menu_min_padding 0x7f050076
 int dimen compat_button_inset_horizontal_material 0x7f05004e
 int dimen compat_button_inset_vertical_material 0x7f05004f
 int dimen compat_button_padding_horizontal_material 0x7f050050
@@ -742,18 +757,28 @@ int id actions 0x7f070038
 int id activity_chooser_view_content 0x7f070039
 int id add 0x7f07003a
 int id alertTitle 0x7f07003b
+int id all 0x7f0700b9
 int id always 0x7f07003c
 int id async 0x7f07003d
 int id barrier 0x7f07003e
 int id beginning 0x7f07003f
 int id blocking 0x7f070040
 int id bottom 0x7f070041
+int id browser_actions_header_text 0x7f0700ba
+int id browser_actions_menu_item_icon 0x7f0700bb
+int id browser_actions_menu_item_text 0x7f0700bc
+int id browser_actions_menu_items 0x7f0700bd
+int id browser_actions_menu_view 0x7f0700be
 int id buttonPanel 0x7f070042
+int id center 0x7f0700bf
+int id center_horizontal 0x7f0700c0
 int id center_vertical 0x7f070043
 int id chains 0x7f070044
 int id checkbox 0x7f070045
 int id checked 0x7f070046
 int id chronometer 0x7f070047
+int id clip_horizontal 0x7f0700c1
+int id clip_vertical 0x7f0700c2
 int id collapseActionView 0x7f070048
 int id container 0x7f070049
 int id content 0x7f07004a
@@ -770,6 +795,9 @@ int id edit_query 0x7f070054
 int id end 0x7f070055
 int id expand_activities_button 0x7f070056
 int id expanded_menu 0x7f070057
+int id fill 0x7f0700c3
+int id fill_horizontal 0x7f0700c4
+int id fill_vertical 0x7f0700c5
 int id forever 0x7f070058
 int id gone 0x7f070059
 int id group_divider 0x7f07005a
@@ -864,6 +892,7 @@ int id unchecked 0x7f0700b2
 int id uniform 0x7f0700b3
 int id up 0x7f0700b4
 int id useLogo 0x7f0700b5
+int id webview 0x7f0700c6
 int id withText 0x7f0700b6
 int id wrap 0x7f0700b7
 int id wrap_content 0x7f0700b8
@@ -907,6 +936,10 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0a0018
 int layout abc_search_view 0x7f0a0019
 int layout abc_select_dialog_material 0x7f0a001a
 int layout abc_tooltip 0x7f0a001b
+int layout activity_kakao_auth 0x7f0a002a
+int layout activity_talk_auth_code 0x7f0a002b
+int layout browser_actions_context_menu_page 0x7f0a002c
+int layout browser_actions_context_menu_row 0x7f0a002d
 int layout custom_dialog 0x7f0a001c
 int layout notification_action 0x7f0a001d
 int layout notification_action_tombstone 0x7f0a001e
@@ -952,6 +985,7 @@ int string abc_searchview_description_voice 0x7f0c0017
 int string abc_shareactionprovider_share_with 0x7f0c0018
 int string abc_shareactionprovider_share_with_application 0x7f0c0019
 int string abc_toolbar_collapse_description 0x7f0c001a
+int string com_kakao_talk_chooser_text 0x7f0c0020
 int string search_menu_title 0x7f0c001b
 int string status_bar_notification_info_overflow 0x7f0c001c
 int string tfe_pn_app_name 0x7f0c001d
@@ -1232,6 +1266,7 @@ int style ThemeOverlay_AppCompat_DayNight_ActionBar 0x7f0d010f
 int style ThemeOverlay_AppCompat_Dialog 0x7f0d0110
 int style ThemeOverlay_AppCompat_Dialog_Alert 0x7f0d0111
 int style ThemeOverlay_AppCompat_Light 0x7f0d0112
+int style TransparentCompat 0x7f0d015e
 int style Widget_AppCompat_ActionBar 0x7f0d0113
 int style Widget_AppCompat_ActionBar_Solid 0x7f0d0114
 int style Widget_AppCompat_ActionBar_TabBar 0x7f0d0115
@@ -1307,6 +1342,7 @@ int style Widget_AppCompat_Toolbar 0x7f0d015a
 int style Widget_AppCompat_Toolbar_Button_Navigation 0x7f0d015b
 int style Widget_Compat_NotificationActionContainer 0x7f0d015c
 int style Widget_Compat_NotificationActionText 0x7f0d015d
+int style Widget_Support_CoordinatorLayout 0x7f0d015f
 int[] styleable ActionBar { 0x7f020031, 0x7f020032, 0x7f020033, 0x7f02005e, 0x7f02005f, 0x7f020060, 0x7f020061, 0x7f020062, 0x7f020063, 0x7f020065, 0x7f02006a, 0x7f02006b, 0x7f02007e, 0x7f02008f, 0x7f020090, 0x7f020091, 0x7f020092, 0x7f020093, 0x7f020098, 0x7f02009b, 0x7f0200e0, 0x7f0200e8, 0x7f0200f3, 0x7f0200f6, 0x7f0200f7, 0x7f020111, 0x7f020114, 0x7f020130, 0x7f020139 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1
@@ -1698,6 +1734,17 @@ int styleable ConstraintSet_layout_goneMarginLeft 76
 int styleable ConstraintSet_layout_goneMarginRight 77
 int styleable ConstraintSet_layout_goneMarginStart 78
 int styleable ConstraintSet_layout_goneMarginTop 79
+int[] styleable CoordinatorLayout { 0x7f020150, 0x7f020157 }
+int styleable CoordinatorLayout_keylines 0
+int styleable CoordinatorLayout_statusBarBackground 1
+int[] styleable CoordinatorLayout_Layout { 0x010100b3, 0x7f020151, 0x7f020152, 0x7f020153, 0x7f020154, 0x7f020155, 0x7f020156 }
+int styleable CoordinatorLayout_Layout_android_layout_gravity 0
+int styleable CoordinatorLayout_Layout_layout_anchor 1
+int styleable CoordinatorLayout_Layout_layout_anchorGravity 2
+int styleable CoordinatorLayout_Layout_layout_behavior 3
+int styleable CoordinatorLayout_Layout_layout_dodgeInsetEdges 4
+int styleable CoordinatorLayout_Layout_layout_insetEdge 5
+int styleable CoordinatorLayout_Layout_layout_keyline 6
 int[] styleable DrawerArrowToggle { 0x7f020029, 0x7f02002a, 0x7f020036, 0x7f02004e, 0x7f020073, 0x7f02008d, 0x7f020109, 0x7f020127 }
 int styleable DrawerArrowToggle_arrowHeadLength 0
 int styleable DrawerArrowToggle_arrowShaftLength 1

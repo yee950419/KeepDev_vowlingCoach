@@ -19,9 +19,14 @@ allprojects {
   repositories {
     google()
     mavenCentral()
+
     maven {
       name 'ossrh-snapshot'
       url 'https://oss.sonatype.org/content/repositories/snapshots'
+    }
+    maven {
+      url = uri('http://devrepo.kakao.com:8088/nexus/content/groups/public/')
+      allowInsecureProtocol = true    ///////
     }
   }
 }

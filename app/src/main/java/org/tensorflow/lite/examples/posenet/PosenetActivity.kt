@@ -60,6 +60,7 @@ import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 import kotlin.math.*
 
+
 class PosenetActivity :
   Fragment(),
   ActivityCompat.OnRequestPermissionsResultCallback {
@@ -628,7 +629,6 @@ class PosenetActivity :
 //        paint
 //      )
 //    }
-
 
 
     canvas.drawText(
