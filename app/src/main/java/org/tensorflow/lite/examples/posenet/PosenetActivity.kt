@@ -38,10 +38,9 @@ import android.hardware.camera2.CaptureRequest
 import android.media.Image
 import android.media.ImageReader
 import android.media.ImageReader.OnImageAvailableListener
-import android.os.Bundle
-import android.os.Handler
-import android.os.HandlerThread
-import android.os.Process
+import android.os.*
+import android.speech.tts.TextToSpeech
+import android.util.Base64
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import android.util.Log
@@ -56,9 +55,14 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import org.tensorflow.lite.examples.posenet.lib.*
+import java.security.MessageDigest
+import java.util.*
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
+import kotlin.concurrent.timer
 import kotlin.math.*
+
+
 
 class PosenetActivity :
   Fragment(),
@@ -79,6 +83,9 @@ class PosenetActivity :
     Pair(BodyPart.RIGHT_HIP, BodyPart.RIGHT_KNEE),
     Pair(BodyPart.RIGHT_KNEE, BodyPart.RIGHT_ANKLE)
   )
+
+  private var timerTask: Timer? = null
+  private var time = 0
 
   /** Threshold for confidence score. */
   private val minConfidence = 0.5
@@ -183,6 +190,7 @@ class PosenetActivity :
     val activity = activity
     activity?.runOnUiThread { Toast.makeText(activity, text, Toast.LENGTH_SHORT).show() }
   }
+
 
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -608,6 +616,7 @@ class PosenetActivity :
     val forwardswingScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
     val followthroughScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
 
+    var positionOfTime = VowlingPose(0.0,0.0,0.0,0.0)
 //    1. 자세별 클래스 정의 - 자세를 판별하기 위해 중요하게 생각해야 할 각도 선별
 //
 //    2. 시간에 따라 canvas.drawText로 보여주는 기준 자세의 점수를 전환
@@ -628,9 +637,23 @@ class PosenetActivity :
 //        paint
 //      )
 //    }
+//---------------시간 부분 ------
+    timerTask = kotlin.concurrent.timer(period = 100) {
+      time ++
+      val sec = time / 100
+      if(sec<5) {
+        positionOfTime = pose_address
+      } else if (sec < 10) {
+        positionOfTime = pose_pushaway
+      } else if (sec < 15) {
+        positionOfTime = pose_downswing
+      } else if (sec < 20) {
+        positionOfTime = pose_backswing
+      } else if (sec < 25) {
 
-
-
+      }
+    }
+//---------------------------
     canvas.drawText(
       "addressScore : %.0f".format(addressScore),
       (15.0f * widthRatio),
@@ -638,25 +661,25 @@ class PosenetActivity :
       paint
     )
     canvas.drawText(
-      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightElbowAngle, rightAlbowAngle),
+      "정답 : %.0f, 실제 : %.0f".format(positionOfTime.correctRightElbowAngle, rightAlbowAngle),
       (15.0f * widthRatio),
       (20.0f * heightRatio + bottom),
       paint
     )
     canvas.drawText(
-      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightShoulderAngle, rightShoulderAngle),
+      "정답 : %.0f, 실제 : %.0f".format(positionOfTime.correctRightShoulderAngle, rightShoulderAngle),
       (15.0f * widthRatio),
       (40.0f * heightRatio + bottom),
       paint
     )
     canvas.drawText(
-      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightHipAngle, rightHipAngle),
+      "정답 : %.0f, 실제 : %.0f".format(positionOfTime.correctRightHipAngle, rightHipAngle),
       (15.0f * widthRatio),
       (60.0f * heightRatio + bottom),
       paint
     )
     canvas.drawText(
-      "정답 : %.0f, 실제 : %.0f".format(pose_address.correctRightKneeAngle, rightKneeAngle),
+      "정답 : %.0f, 실제 : %.0f".format(positionOfTime.correctRightKneeAngle, rightKneeAngle),
       (15.0f * widthRatio),
       (80.0f * heightRatio + bottom),
       paint
