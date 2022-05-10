@@ -84,8 +84,10 @@ class PosenetActivity :
     Pair(BodyPart.RIGHT_KNEE, BodyPart.RIGHT_ANKLE)
   )
 
+
   private var timerTask: Timer? = null
-  private var time = 0
+  private var time: Int = 0
+
 
   /** Threshold for confidence score. */
   private val minConfidence = 0.5
@@ -309,6 +311,10 @@ class PosenetActivity :
    * Opens the camera specified by [PosenetActivity.cameraId].
    */
   private fun openCamera() {
+    timerTask = kotlin.concurrent.timer(period = 100) {
+      time ++
+    }
+
     val permissionCamera = getContext()!!.checkPermission(
       Manifest.permission.CAMERA, Process.myPid(), Process.myUid()
     )
@@ -469,28 +475,8 @@ class PosenetActivity :
     return croppedBitmap
   }
 
-  /** 각도 구하기 */
-//    fun getAngle(a1 : Position, a2 : Position, a3 : Position): Double {
-//      val person = Person()
-//      val p1: Double = hypot(
-//        ((a1.x) - (a2.x)).toDouble(),
-//        ((a1.y) - (a2.y)).toDouble()
-//      )
-//      val p2: Double = hypot(
-//        ((a2.x) - (a3.x)).toDouble(),
-//        ((a2.y) - (a3.y)).toDouble()
-//      )
-//      val p3: Double = hypot(
-//        ((a3.x) - (a1.x)).toDouble(),
-//        ((a3.y) - (a1.y)).toDouble()
-//      )
-//
-//      val radian: Double = acos((p1 * p1 + p2 * p2 - p3 * p3) / (2 * p1 * p2))
-//      return radian / PI * 180
-//    }
-//  private fun getAverage(array: DoubleArray): Double{
-//    return array.sum()/array.size
-//  }
+  /** 시간 구하기 */
+
 
 
   /** Set the paint color and size.    */
@@ -594,12 +580,6 @@ class PosenetActivity :
       person.keyPoints[BodyPart.RIGHT_KNEE.ordinal].position,
       person.keyPoints[BodyPart.RIGHT_ANKLE.ordinal].position)
 
-//    val pose_address = Pose_Address()
-//    val pose_pushaway = Pose_PushAway()
-//    val pose_downswing = Pose_DownSwing()
-//    val pose_backswing = Pose_BackSwing()
-//    val pose_forwardswing = Pose_ForwardSwing()
-//    val pose_followthrough = Pose_FollowThrough()
     /** 각 자세 인스턴스 생성*/
     val pose_address = VowlingPose(90.0, 0.0, 160.0, 160.0);
     val pose_pushaway = VowlingPose(105.0, 15.0, 150.0, 150.0, 150.0);
@@ -617,15 +597,7 @@ class PosenetActivity :
     val followthroughScore = pose_pushaway.getScore(rightAlbowAngle, rightShoulderAngle, rightHipAngle, rightKneeAngle, leftKneeAngle)
 
     var positionOfTime = VowlingPose(0.0,0.0,0.0,0.0)
-//    1. 자세별 클래스 정의 - 자세를 판별하기 위해 중요하게 생각해야 할 각도 선별
-//
-//    2. 시간에 따라 canvas.drawText로 보여주는 기준 자세의 점수를 전환
-//
-//    3. bestScore를 어떻게 기록할지..    0~40 까지는 무효, 40~100 까지는 점수
-//
-//    4. 시간이 끝날때마다 최고 점수를 화면에 띄워주고 다음 자세로 넘어감
-//
-//    5. 마지막 자세가 끝나면 카메라가 꺼지고 점수 확인 화면으로 전환
+
 
     /** 50점 이상의 어드레스 자세 점수만 출력 후 scoreArray에 저장*/
 //    if(addressScore>50){
@@ -637,25 +609,24 @@ class PosenetActivity :
 //        paint
 //      )
 //    }
-//---------------시간 부분 ------
-    timerTask = kotlin.concurrent.timer(period = 100) {
-      time ++
-      val sec = time / 100
-      if(sec<5) {
-        positionOfTime = pose_address
-      } else if (sec < 10) {
-        positionOfTime = pose_pushaway
-      } else if (sec < 15) {
-        positionOfTime = pose_downswing
-      } else if (sec < 20) {
-        positionOfTime = pose_backswing
-      } else if (sec < 25) {
-
-      }
+    /** 시간 별로 자세 구분*/
+    val sec = time/10
+    if(sec < 5) {
+      positionOfTime = pose_address
+    } else if (sec < 10) {
+      positionOfTime = pose_pushaway
+    } else if (sec < 15) {
+      positionOfTime = pose_downswing
+    } else if (sec < 20) {
+      positionOfTime = pose_backswing
+    } else if (sec < 25) {
+      positionOfTime = pose_forwardswing
+    } else if (sec < 30) {
+      positionOfTime = pose_followthrough
     }
-//---------------------------
+
     canvas.drawText(
-      "addressScore : %.0f".format(addressScore),
+      "addressScore : %.0f, sec : %d".format(addressScore, sec),
       (15.0f * widthRatio),
       (00.0f * heightRatio + bottom),
       paint
@@ -682,6 +653,12 @@ class PosenetActivity :
       "정답 : %.0f, 실제 : %.0f".format(positionOfTime.correctRightKneeAngle, rightKneeAngle),
       (15.0f * widthRatio),
       (80.0f * heightRatio + bottom),
+      paint
+    )
+    canvas.drawText(
+      "정답 : %.0f, 실제 : %.0f".format(positionOfTime.correctLeftKneeAngle, leftKneeAngle),
+      (15.0f * widthRatio),
+      (100.0f * heightRatio + bottom),
       paint
     )
 //    canvas.drawText(

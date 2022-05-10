@@ -1,12 +1,12 @@
-#Mon May 09 11:19:54 JST 2022
+#Tue May 10 22:09:55 KST 2022
 path.3=8/classes.dex
 path.2=0/classes.dex
 path.1=6/classes.dex
 path.0=classes.dex
-base.3=/Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
-base.2=/Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.1=/Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/app/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
-base.0=/Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=C\:\\Users\\yee95\\AndroidStudioProjects\\posenetTest\\KeepDev_vowlingCoach\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.2=C\:\\Users\\yee95\\AndroidStudioProjects\\posenetTest\\KeepDev_vowlingCoach\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\yee95\\AndroidStudioProjects\\posenetTest\\KeepDev_vowlingCoach\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\6\\classes.dex
+base.0=C\:\\Users\\yee95\\AndroidStudioProjects\\posenetTest\\KeepDev_vowlingCoach\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

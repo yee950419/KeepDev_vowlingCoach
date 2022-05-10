@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:1:1-6:12
+ADDED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:1:1-6:12
 	package
-		ADDED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:2:3-53
-		INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml
-		INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml
+		ADDED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:2:3-53
+		INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-ADDED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
-INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
-INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
-INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
-INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
+ADDED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
+INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
+INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
+INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
+INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
 	android:targetSdkVersion
-		INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml
-		ADDED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
-		INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
+		INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml
-		ADDED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml:4:3-15
-		INJECTED from /Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/posenet/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml:4:3-15
+		INJECTED from C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\posenet\src\main\AndroidManifest.xml

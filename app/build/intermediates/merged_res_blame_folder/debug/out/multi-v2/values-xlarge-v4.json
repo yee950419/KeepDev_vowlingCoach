@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dlqkawns/Downloads/app/KeepDev_vowlingCoach/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\yee95\\AndroidStudioProjects\\posenetTest\\KeepDev_vowlingCoach\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/Users/dlqkawns/.gradle/caches/transforms-3/96e8645982fff0292aff99731fc15d63/transformed/appcompat-1.1.0/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "C:\\Users\\yee95\\.gradle\\caches\\transforms-3\\96e8645982fff0292aff99731fc15d63\\transformed\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
