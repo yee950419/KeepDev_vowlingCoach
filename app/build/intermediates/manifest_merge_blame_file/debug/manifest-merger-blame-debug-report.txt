@@ -5,104 +5,104 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:13:3-15
+7-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:13:3-15
 8        android:minSdkVersion="21"
-8-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:13:3-15
+8-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:13:3-15
 9        android:targetSdkVersion="31" />
-9-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:13:3-15
+9-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:13:3-15
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:4:3-64
-11-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:4:20-62
+11-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:4:3-64
+11-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:4:20-62
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:5:3-76
-12-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:5:20-74
+12-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:5:3-76
+12-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:5:20-74
 13    <uses-permission android:name="android.permission.BLUETOOTH" />
-13-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:6:3-65
-13-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:6:20-63
+13-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:6:3-65
+13-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:6:20-63
 14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-14-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:7:3-69
-14-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:7:20-66
+14-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:7:3-69
+14-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:7:20-66
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:8:3-63
-15-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:8:20-60
+15-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:8:3-63
+15-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:8:20-60
 16
 17    <uses-feature android:name="android.hardware.camera" />
-17-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:10:3-58
-17-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:10:17-55
+17-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:10:3-58
+17-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:10:17-55
 18    <uses-feature android:name="android.hardware.camera.autofocus" />
-18-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:11:3-68
-18-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:11:17-65
+18-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:11:3-68
+18-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:11:17-65
 19
 20    <application
-20-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:15:3-38:17
+20-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:15:3-38:17
 21        android:allowBackup="true"
-21-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:16:7-33
+21-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:16:7-33
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.1.0] C:\Users\yee95\.gradle\caches\transforms-3\766088ca3c93a38d4ac39cf5fd7f3d31\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+22-->[androidx.core:core:1.1.0] /Users/leebumjun/.gradle/caches/transforms-3/766088ca3c93a38d4ac39cf5fd7f3d31/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:17:7-41
+24-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:17:7-41
 25        android:label="@string/tfe_pn_app_name"
-25-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:18:7-46
+25-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:18:7-46
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:19:7-52
+26-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:19:7-52
 27        android:supportsRtl="true"
-27-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:20:7-33
+27-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:20:7-33
 28        android:testOnly="true"
 29        android:theme="@style/AppTheme.Posenet" >
-29-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:21:7-46
+29-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:21:7-46
 30        <meta-data
-30-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:22:5-24:60
+30-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:22:5-24:60
 31            android:name="com.kakao.sdk.AppKey"
-31-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:23:9-44
+31-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:23:9-44
 32            android:value="1eb1dac0abbe7462fd9d032ef7eb5ba6" />
-32-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:24:9-57
+32-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:24:9-57
 33
 34        <activity
-34-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:25:5-29:16
+34-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:25:5-29:16
 35            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
-35-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:26:9-37
+35-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:26:9-37
 36            android:exported="true"
-36-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:28:9-32
+36-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:28:9-32
 37            android:label="@string/tfe_pn_app_name" >
-37-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:27:9-48
+37-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:27:9-48
 38        </activity>
 39        <activity
-39-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:31:5-36:16
+39-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:31:5-36:16
 40            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
-40-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:31:15-45
+40-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:31:15-45
 41            android:exported="true" >
-41-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:31:46-69
+41-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:31:46-69
 42            <intent-filter>
-42-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:32:7-35:23
+42-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:32:7-35:23
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:33:9-60
-43-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:33:17-58
+43-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:33:9-60
+43-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:33:17-58
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:34:9-68
-45-->C:\Users\yee95\AndroidStudioProjects\posenetTest\KeepDev_vowlingCoach\app\src\main\AndroidManifest.xml:34:19-66
+45-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:34:9-68
+45-->/Users/leebumjun/StudioProjects/KeepDev_vowlingCoach/app/src/main/AndroidManifest.xml:34:19-66
 46            </intent-filter>
 47        </activity>
 48        <activity
-48-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:12:9-16:56
+48-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:12:9-16:56
 49            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
-49-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:13:13-67
+49-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:13:13-67
 50            android:exported="false"
-50-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:14:13-37
+50-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:14:13-37
 51            android:launchMode="singleTask"
-51-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:15:13-44
+51-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:15:13-44
 52            android:theme="@style/TransparentCompat" />
-52-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:16:13-53
+52-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:16:13-53
 53        <activity
-53-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:17:9-20:56
+53-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:17:9-20:56
 54            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
-54-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:18:13-70
+54-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:18:13-70
 55            android:launchMode="singleTask"
-55-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:19:13-44
+55-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:19:13-44
 56            android:theme="@style/TransparentCompat" />
-56-->[com.kakao.sdk:v2-auth:2.0.1] C:\Users\yee95\.gradle\caches\transforms-3\cbd5c501dc767a25381279f5c0465b96\transformed\v2-auth-2.0.1\AndroidManifest.xml:20:13-53
+56-->[com.kakao.sdk:v2-auth:2.0.1] /Users/leebumjun/.gradle/caches/transforms-3/cbd5c501dc767a25381279f5c0465b96/transformed/v2-auth-2.0.1/AndroidManifest.xml:20:13-53
 57    </application>
 58
 59</manifest>
