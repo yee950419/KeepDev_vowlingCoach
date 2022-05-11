@@ -38,6 +38,7 @@ import android.hardware.camera2.CaptureRequest
 import android.media.Image
 import android.media.ImageReader
 import android.media.ImageReader.OnImageAvailableListener
+import android.media.MediaPlayer
 import android.os.*
 import android.speech.tts.TextToSpeech
 import android.util.Base64
@@ -88,6 +89,17 @@ class PosenetActivity :
   private var timerTask: Timer? = null
   private var time: Int = 0
 
+  private var num1 : MediaPlayer? = null
+  private var num2 : MediaPlayer? = null
+  private var num3 : MediaPlayer? = null
+  private var num4 : MediaPlayer? = null
+  private var num5 : MediaPlayer? = null
+  private var address : MediaPlayer? = null
+  private var push : MediaPlayer? = null
+  private var down : MediaPlayer? = null
+  private var back : MediaPlayer? = null
+  private var forward : MediaPlayer? = null
+  private var follow : MediaPlayer? = null
 
   /** Threshold for confidence score. */
   private val minConfidence = 0.5
@@ -314,6 +326,17 @@ class PosenetActivity :
     timerTask = kotlin.concurrent.timer(period = 100) {
       time ++
     }
+    num1 = MediaPlayer.create(this.context, R.raw.one)
+    num2 = MediaPlayer.create(this.context, R.raw.two)
+    num3 = MediaPlayer.create(this.context, R.raw.three)
+    num4 = MediaPlayer.create(this.context, R.raw.four)
+    num5 = MediaPlayer.create(this.context, R.raw.five)
+    address = MediaPlayer.create(this.context, R.raw.address)
+    push = MediaPlayer.create(this.context, R.raw.push_away)
+    back = MediaPlayer.create(this.context, R.raw.back_swing)
+    follow = MediaPlayer.create(this.context, R.raw.follow_throw)
+    forward = MediaPlayer.create(this.context, R.raw.forward)
+    down = MediaPlayer.create(this.context, R.raw.down_swing)
 
     val permissionCamera = getContext()!!.checkPermission(
       Manifest.permission.CAMERA, Process.myPid(), Process.myUid()
@@ -598,7 +621,6 @@ class PosenetActivity :
 
     var positionOfTime = VowlingPose(0.0,0.0,0.0,0.0)
 
-
     /** 50점 이상의 어드레스 자세 점수만 출력 후 scoreArray에 저장*/
 //    if(addressScore>50){
 //      pose_address.scoreArray.plus(addressScore)
@@ -611,17 +633,48 @@ class PosenetActivity :
 //    }
     /** 시간 별로 자세 구분*/
     val sec = time/10
-    if(sec < 5) {
+    val fiveSec = time%50
+
+    if(fiveSec == 10 && sec<=30) {
+      num1?.start()
+    }else if(fiveSec == 20 && sec<=30){
+      num2?.start()
+    }else if(fiveSec == 30 && sec<=30){
+      num3?.start()
+    }else if(fiveSec == 40 && sec<=30){
+      num4?.start()
+    }
+
+    if(sec == 0){
+      address?.start()
+    }
+    if(sec == 5){
+      push?.start()
+    }
+    if(sec == 10){
+      down?.start()
+    }
+    if(sec == 15){
+      back?.start()
+    }
+    if(sec == 20){
+      forward?.start()
+    }
+    if(sec == 25){
+      follow?.start()
+    }
+
+    if(sec <= 5) {
       positionOfTime = pose_address
-    } else if (sec < 10) {
+    } else if (sec <= 10) {
       positionOfTime = pose_pushaway
-    } else if (sec < 15) {
+    } else if (sec <= 15) {
       positionOfTime = pose_downswing
-    } else if (sec < 20) {
+    } else if (sec <= 20) {
       positionOfTime = pose_backswing
-    } else if (sec < 25) {
+    } else if (sec <= 25) {
       positionOfTime = pose_forwardswing
-    } else if (sec < 30) {
+    } else if (sec <= 30) {
       positionOfTime = pose_followthrough
     }
 
